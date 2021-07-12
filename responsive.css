@@ -1,5 +1,5 @@
 /* if the viewport is equal to 340px or less than that */
-/* @media only screen and (max-width: 340px) {
+@media only screen and (max-width: 340px) {
   .header_area .main-menu .navbar,
   .header_area .main-menu .navbar .navbar-brand,
   .site-main .subscribe-us-area .subscribe .subscribe-title,
@@ -22,7 +22,7 @@
   .site-main > .services-area .services {
     width: 13rem;
   }
-} */
+}
 
 /* if the viewport is equal to 792px or less than that */
 @media only screen and (max-width: 792px) {
