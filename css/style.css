@@ -232,9 +232,9 @@ button:active button:hover .btn:active,
 
 /* Start About Area */
 
-#about {
+/* #about {
   padding: 2rem 3rem;
-}
+} */
 
 #about .about-image {
   display: flex;
@@ -242,9 +242,9 @@ button:active button:hover .btn:active,
   align-items: center;
 }
 
-#about .about-image img {
+/* #about .about-image img {
   max-width: 600px;
-}
+} */
 
 .site-main .about-area .about-title h2 > span {
   display: block;
@@ -347,7 +347,7 @@ button:active button:hover .btn:active,
 }
 
 .site-main .project-area .portfolio-nav .portfolio-item {
-  margin: 2rem 0.5rem;
+  margin: 2rem 0;
   text-align: center;
   padding: 0.5rem;
   background: transparent;
@@ -370,7 +370,7 @@ button:active button:hover .btn:active,
 
 @media (max-width: 795px) {
   .site-main .project-area .portfolio-nav .portfolio-item {
-    margin: 1rem 0.5rem;
+    margin: 1rem 0;
   }
 }
 
