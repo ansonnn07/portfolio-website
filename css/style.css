@@ -198,11 +198,16 @@ button:active button:hover .btn:active,
 } */
 
 .site-main .site-banner {
-  padding: 7rem 0;
+  padding-top: 7rem;
+}
+
+@media (max-width: 991px) {
+  .site-main .site-banner {
+    padding-top: 3rem;
+  }
 }
 
 .site-main .site-banner .site-title h3 {
-  padding-top: 20%;
   font-weight: 500;
 }
 
@@ -215,7 +220,6 @@ button:active button:hover .btn:active,
   margin-left: 5%;
   transform: translateY(-10px);
 }
-
 .site-main .site-banner .site-title h1 {
   font-size: 5rem;
 }
@@ -232,9 +236,15 @@ button:active button:hover .btn:active,
 
 /* Start About Area */
 
-/* #about {
-  padding: 2rem 3rem;
-} */
+#about {
+  padding-top: 7rem;
+}
+
+@media (max-width: 991px) {
+  #about {
+    padding-top: 3rem;
+  }
+}
 
 #about .about-image {
   display: flex;
